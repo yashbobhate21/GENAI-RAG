@@ -1,0 +1,29 @@
+
+
+# LangChain ecosystem
+langchain
+langchain-community
+langchain-mistralai
+
+# Vector database
+chromadb
+
+# Document loaders & parsing
+pypdf
+python-docx
+unstructured
+
+# Embeddings & utilities
+tiktoken
+numpy
+
+# Environment variables
+python-dotenv
+
+# Optional: API / app layer
+fastapi
+uvicorn
+streamlit
+
+# Optional: notebook support
+ipykernel
