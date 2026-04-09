@@ -106,7 +106,6 @@ with st.sidebar:
                     vectorstore = Chroma.from_documents(
                         documents=chunks,
                         embedding=embedding_model,
-                        persist_directory="chroma_db"
                     )
                     
                     st.session_state.vectorstore = vectorstore
